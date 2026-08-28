@@ -19,6 +19,11 @@ class Program
         Console.WriteLine(book1.Equals(obj));
         Console.WriteLine(book1.GetHashCode());
         Console.WriteLine(book1.GetType());
+        //Answer to question 3
+        //int pages= "300"; compiler-runtime error
+        //solution is to change the type of pages to int and assign a valid integer value
+        int pages = 300;
+
 
 
     }
