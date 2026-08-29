@@ -23,10 +23,24 @@ class Program
         //int pages= "300"; compiler-runtime error
         //solution is to change the type of pages to int and assign a valid integer value
         int pages = 300;
+        //Answer to question 4
+        try
+        {
+            int num1 = 0;
+            int num2 = 10;
+            int result = num2 / num1; // This will throw a DivideByZeroException
 
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
 
-
+        }
+        finally
+        {
+            Console.WriteLine("Done");
+        }
     }
-}
+    }
 
 
